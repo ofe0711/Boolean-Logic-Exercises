@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Oreofe Olayemi</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1><b>Boolean Logic Exercises<b></h1>
+  <h2>Part I</h2>
+  <ol>
+    <li>2 == "2"; // True</li>
+    <li>2 === 2; // True</li>
+    <li>10 % 3; // True</li>
+    <li>10 % 3 === 1; // True</li>
+    <li>true && false; // False</li>
+    <li>false || true; // True</li>
+    <li>true || false; // True</li>
+  </ol>
+  
+  <h2>Part II</h2>  
+  
+  <p>let isLearning = true;
+if(isLearning){
+    console.log("Keep it up!");
+} else {
+    console.log("Pretty sure you are learning....");
+}</p>
+  
+  <ol>
+    <li>What should the above code console.log? The code should console.log "Keep it up!"</li>
+    <li>Why do we not need to specify if(isLearning === true)? Why does if(isLearning) work on its own? We do not need to specify if(isLearning === true) because </li>
+  </ol>
+  
+  
+  <p>let firstvariable;
+let secondvariable = "";
+let thirdvariable = 1;
+let secretMessage = "Shh!";
+
+if(firstvariable){
+    console.log("first");
+} else if(firstvariable || secondvariable){
+    console.log("second");
+} else if(firstvariable || thirdvariable){
+    console.log("third");
+} else {
+    console.log("fourth");
+}</p>
+  
+  <ol>
+    <li>What should the above code console.log? Why? The above code should console.log("third"). This is because it is the only value that returns as true</li>
+    <li>What is the value of firstvariable when it is initialized? The value of the first variable when initialized is <em>undefined</em></li>
+    <li>Is the value of firstvariable a "truthy" value? Why? The value of the firstvariable is not a truthy. This is because it does not return to the value of truth and it has also undefined</li>
+    <li>Is the value of secondvariable a "truthy" value? Why?> The value of the secondvariable is not a truthy. This is because it does not return to the value of true and also because empty strings aren't truthy's.</li>
+    <li>Is the value of thirdvariable a "truthy" value? Why? Yes, the value of the thirdvariable is a truthy. It returns to the value of true and also because values above 0 are truthy's.</li>
+  </ol>
+  
+  <h2>Part III</h2>
+  
+  <p>Research Math.random here and write an if statement that console.log's "Over 0.5" if Math.random returns a number greater than 0.5. Otherwise console.log "Under 0.5".</p>
+  
+  
+  <p>1. Kindly check JavaScript extension of this file</p>
+  
+  <p>2. What is a falsey value? List all the falsey values in JavaScript. Falsey values are values that return false asides the false value. They are:</p>
+  
+  <ul>
+    <li>0</li>
+    <li>False</li>
+    <li>null</li>
+    <li>undefined</li>
+    <li>NaN</li>
+    <li>" "</li>
+  </ul>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
